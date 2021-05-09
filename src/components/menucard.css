@@ -1,0 +1,112 @@
+.Menucard{
+    display: flex;
+    width: 100%;
+    max-width: 768px;
+    height: 20vh;
+    margin-top: 70px;
+    animation: fadeInAnimation ease 2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    box-shadow: 15px 20px 15px #201c1c;
+    border-radius: 10px 10px 10px 10px;
+}
+
+.aftrimg{
+    display: flex;
+    width: 60%;
+    justify-content: space-between;
+    
+}
+.Menucard_img{
+     width: 30%;
+    object-fit: contain;
+    border-right: 20px solid transparent;
+    
+}
+
+.Menucard_img>img{
+    width: 100%;
+  height: 100%;
+  border-radius: 10px 0px 0px 10px;
+margin: 0;
+}
+.Menucard_name{
+    width:10rem;
+    height: 40%;
+    font-size: 1.5rem;
+    padding: 0;
+    margin-top: 0;
+    margin-right: 10px;
+}
+.Menucard_descrition{
+width: 30%;
+height: 80%;
+}
+.menucard_price{
+    font-size: 1.5rem;
+    height: 10%;
+}
+
+
+@keyframes fadeInAnimation {
+    0% {
+        margin-left: -100%;
+    }
+    100% {
+        margin-left: 10%;
+    }
+}
+
+
+@media screen and (max-width:960pxx) {
+    .Menucard{
+        width: 90%;
+    }
+    
+}
+@media (max-width:768px){
+    .Menucard{
+        width: 90%;
+        display: flex;
+    }
+    .Menucard_img{
+        width:50% ;
+        border:none;
+        margin-right: 0;
+    }
+    .Menucard_descrition{
+        display: none;
+
+    }
+    .Menucard_name{
+        margin-left: 30px;
+        width: 70%;
+        height: 70%;
+        font-size: 1.2rem;
+        font-weight: 700;
+        overflow: wrap;
+    }
+    .menucard_price{
+        font-size: 1.2rem;
+        font-weight: 700;
+        height: 30px;
+        margin-left: 30px;
+    }
+    
+    .aftrimg{
+        display: flex;
+        flex-direction: column;
+        
+    }
+
+    @keyframes fadeInAnimation {
+        0% {
+            margin-left: -100%;
+        }
+        100% {
+            margin-left: 5%;
+        }
+    }
+    
+
+}

@@ -1,0 +1,149 @@
+.menu{
+ /* background-image: linear-gradient(to bottom right ,rgb(243, 240, 240),#4445456f); */
+    color: black;
+}
+/* h1{
+    animation : headingsIn ease 2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+ */
+ .menu_headings{ 
+     margin-top: 10%;
+           width: 17rem;
+          height: 8rem;
+/* background-color: khaki; */
+box-shadow: 10px 10px 10px rgb(32, 24, 24) ;
+border-radius: 10%;
+margin-left: 20px;
+}
+ .menu_headings>p{
+     font-size: 3rem;
+     font-weight: 700;
+     padding: 30px 10px 0px 30px;
+ }
+ 
+
+ .menu_nonveg{
+     margin-top: 10rem;
+     width: 50%;
+ }
+ .arrow_cont{
+     width: 100%;
+     height: 50vh;
+ }
+ 
+
+ 
+@keyframes tags {
+    0%{
+        margin-left:-100% ;
+    }
+    100%{
+        margin-left:10% ;
+    }
+    
+}
+ .arrow_cont2{
+    position:absolute;
+    top: 9rem;
+    width: 40%;
+    height: 200px;
+    font: size 1rem;;
+    left: 4rem;
+ }
+
+ .menu_items>h1{
+     margin-left: 2rem;
+ }
+ .Menu_body{
+    display: flex;
+    margin-top: -10%;
+}
+
+ .Menu_order{
+     position: sticky;
+       width: 30%;   
+       height: 40vh;
+       margin-top: 30%;
+       background-color: violet;
+       margin-left: 10%;
+       box-shadow: 10px 20px 30px black;
+ }
+
+
+ .menu_footer{
+     width: 100%;
+     height: 15rem;
+     background-color: black;
+     margin-top: 10rem;
+ }
+ @media screen and (max-width:1700pxx){
+    .curved{margin-top: 20%;
+        position: relative;
+        z-index: 25;
+        height: 80%;
+        width: 100%;
+        background-color: #EB9691;
+    }
+}
+
+
+
+@media screen and (max-width: 960px){
+    .Menu_body{
+        display: flex;
+        flex-direction: column;
+    }
+    .menu_nonveg{
+        width: 100%;
+    }
+    .arrow_cont2{
+        font-size: 1em;
+       width: 60%;
+    }
+    .arrow{
+        margin-top: 0rem;
+        width: 0; 
+         height: 0; 
+         border-top: 23rem solid #C1E63C;
+         border-bottom: 30rem solid transparent;
+         border-left: 23vw solid transparent;
+         border-right: 77vw solid transparent ;
+      }
+      .menu_headings>p{
+        font-size: 2rem;
+    }
+}
+
+@media screen and (max-width: 768px ){
+    .menu_headings>p{
+        font-size: 2rem;
+    }
+    .menu_headings{
+        height: 7rem;
+    }
+    .menu{
+        width: 100%;
+        overflow: hidden;
+    }
+    .Menu_order{
+        width: 100%;
+    }
+    .arrow_cont2{
+        top: 15%;
+        left: 0%;
+        font-size: 0.5rem;
+      width: 100%;
+      
+    }
+    .arrow{
+        width: 0; 
+         height: 0; 
+         border-top: 14rem solid #000000;
+         border-bottom: 33rem solid transparent;
+         border-left: 37vw solid transparent;
+         border-right: 63vw solid transparent ;
+      }
+
+}

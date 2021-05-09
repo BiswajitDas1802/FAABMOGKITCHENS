@@ -1,0 +1,101 @@
+.homepage{
+    /* background-image: linear-gradient(to right ,rgb(179, 171, 171),rgba(81, 140, 33, 0.517)); */
+    width: 100vw;
+    height: 100%;
+    color: black;
+    /* background-color:olivedrab ; */
+}
+
+.Home_carousal{
+    margin-top: -300px;
+    position: relative;
+    z-index: 40;
+    margin-left:auto ;
+    margin-right: 10%;
+    width: 50%;
+    box-shadow: 20px 20px 10px rgb(101, 95, 95);
+}
+.homepage_redir{
+    width: 6rem;
+    height: 6rem;
+    background-color: darkcyan;
+    position: absolute;
+    right: 4%;
+}
+
+.curved>h1{
+    margin-top: 10px;
+    margin-left: 40px;
+    padding: none;
+}
+
+.curved{margin-top: 4%;
+    position: relative;
+    z-index: 25;
+    height: 70%;
+    width: 100%;
+    background-color: #EB9691;
+}
+@media screen and (min-width:1660px){
+    .curved{
+        position: relative;
+        z-index: 25;
+        height: 55%;
+        width: 100%;
+        background-color: #EB9691;
+    }
+}
+
+
+@media screen and (max-width:1340px) and (min-width:960px) {
+ 
+.Home_carousal{
+   width: 60%;
+   margin: auto;
+   margin-top: 50%;
+   margin-top: -100px;
+}
+.curved{
+    position: relative;
+    z-index: 25;
+    height: 45vh;
+    width: 100%;
+    background-color: #EB9691;
+}
+}
+ 
+
+@media screen and (max-width:960px){
+    .Home_carousal{
+        width: 80%;
+        margin: auto;
+        margin-top: 0px;
+     }
+     .homepage_descdiv{
+         flex-direction: column;
+     }
+     .curved{
+         margin-top: -20px;
+        position: relative;
+        z-index: 25vh;
+        height: 43vh;
+        width: 100%;
+        background-color: #EB9691;
+        
+    }
+    .homepage_desc{
+        margin-top: 10%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+@media screen and (max-width:760px){
+    .curved{
+        margin-top: -20px;
+       position: relative;
+       z-index: 30vh;
+       height: 40%;
+       width: 100%;
+       background-color: #EB9691;
+   }
+}
