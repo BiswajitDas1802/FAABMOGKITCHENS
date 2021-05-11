@@ -1,7 +1,60 @@
 .Footer{
-     padding-bottom: 10%;
-    background-color:#EB9691;
+    background-color:orange;
+    width: 100%;
+    position: relative;
+    z-index: 10;
 }
-.Footer>h1{
+.Footer>svg{
+    width: 100%;
+}
+.Social_Icons{
+    width:100%;
+    padding-bottom: 10rem;
+    transform:translateY(-4rem);
+    position: relative;
+    z-index: 20;
+    top: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 2rem;
+    text-align: center;
    
+}
+
+.Social_iconssub{
+    background: white;
+    display: inline-block;
+    width: 5rem;
+    height:5rem ;
+     padding: -1rem 0rem 1rem 0rem;
+    margin-left: 30px;
+    font-size: 70px;
+    border-radius:2.5rem 2.5rem 2.5rem 2.5rem ;
+    transition: transform 2s ease, color 2s ease;
+    box-shadow: 10px 10px 10px rgb(51, 48, 48);
+    
+}
+.Social_iconssub>a>i{
+  transform: translateY(-0.9rem);
+}
+
+.Social_Icons>div:hover{
+    transform: translateY(-40px);
+}
+.facebook{
+    color: #3b5998;
+}
+.twitter{
+  color:  #38A1F3;
+}
+.instagram{
+ color:   #e1306c;
+}
+.plus{
+    color:#db4a39;
+}
+
+
+@media screen and (max-wi) {
+    
 }

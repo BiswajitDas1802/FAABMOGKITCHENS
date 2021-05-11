@@ -6,9 +6,8 @@ function Menucard({src,name,desc,price}) {
     return (
         <div className="Menucard">
             <div className="Menucard_img">
-                <img src={src} />
-            </div>
-            <div className="aftrimg">
+                <img src={src}/>
+                <div className="afterimg">
             <div className="Menucard_name">
                 {name}
             </div>
@@ -17,6 +16,7 @@ function Menucard({src,name,desc,price}) {
             </div>
             <div className="menucard_price">
                 {price}
+            </div>
             </div>
             </div>
         </div>
